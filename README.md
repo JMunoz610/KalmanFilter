@@ -1,3 +1,5 @@
 This project takes the dynamics of a Remotely Operated Vehicle (ROV) and applies a discrete Kalman filter to improve the accuracy of its output. The idea is that the mathematical model of the ROV’s dynamics is more reliable than the noisy sensor measurements, so the filter uses the model to predict the system’s behavior and then corrects that prediction with the sensor data. By combining both sources of information, the Kalman filter produces a smoother and more accurate estimate of the ROV’s output compared to relying on the sensors alone. This helps reduce the impact of noise and makes the system’s response more trustworthy for analysis or control.
 
 ![Kalman Filter Output](Resources/Figure_1.png)
+
+The figure shows three signals over time: ys represents the ground truth output of the system, serving as a reference for accuracy. z is the noisy measurement obtained from sensors, which fluctuates due to external disturbances and sensor limitations. yhat is the estimated output produced by the Kalman filter, which combines the system model and the noisy measurements to generate a smoother and more reliable approximation of the true output.
