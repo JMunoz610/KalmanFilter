@@ -1,4 +1,4 @@
-# Kalman Filter (Aug 2025 – Dec 2025)
+# Kalman Filter (Dec 2025)
 
 A discrete Kalman filter was implemented to improve state estimation for a Remotely Operated Vehicle (ROV). The system model provides a more reliable prediction of the vehicle’s dynamics than raw sensor measurements, allowing the filter to fuse both sources and produce a smoother, more accurate estimate of the true system state.
 
